@@ -113,19 +113,19 @@ public final class IncognitoWebView extends WebView {
 		} else {
 			switch (preferences.getInt("textsize", 3)) {
 			case 1:
-				settings.setTextZoom(200);
+				settings.setTextZoom(140);
 				break;
 			case 2:
-				settings.setTextZoom(150);
+				settings.setTextZoom(130);
 				break;
 			case 3:
-				settings.setTextZoom(100);
+				settings.setTextZoom(120);
 				break;
 			case 4:
-				settings.setTextZoom(75);
+				settings.setTextZoom(110);
 				break;
 			case 5:
-				settings.setTextZoom(50);
+				settings.setTextZoom(100);
 				break;
 			}
 		}
